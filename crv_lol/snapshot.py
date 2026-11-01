@@ -54,6 +54,7 @@ def publish_snapshot(snapshot, path=None):
     )
     try:
         with os.fdopen(descriptor, "w", encoding="utf-8") as temporary_file:
+            os.fchmod(temporary_file.fileno(), 0o644)
             json.dump(snapshot, temporary_file, indent=2)
             temporary_file.write("\n")
             temporary_file.flush()

@@ -5,9 +5,15 @@ After=network-online.target
 
 [Service]
 Type=oneshot
-User=wavey
-Group=wavey
-WorkingDirectory=/home/wavey/crv-lol
-EnvironmentFile=/home/wavey/crv-lol/.env
+User=svc-crv-lol
+Group=svc-crv-lol
+WorkingDirectory=/opt/crv-lol
+EnvironmentFile=/etc/crv-lol.env
+Environment=HOME=/var/lib/crv-lol
 Environment=CRVLOL_SNAPSHOT_PATH=/var/lib/crv-lol/snapshot.json
-ExecStart=/home/wavey/crv-lol/venv/bin/brownie run refresh --network electro
+ExecStart=/opt/crv-lol/venv/bin/brownie run refresh --network electro
+ProtectSystem=strict
+ProtectHome=yes
+PrivateTmp=yes
+NoNewPrivileges=yes
+ReadWritePaths=/var/lib/crv-lol

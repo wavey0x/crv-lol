@@ -30,6 +30,7 @@ def test_publish_snapshot_atomically_replaces_existing_file(tmp_path):
     snapshot.publish_snapshot(valid_snapshot(), destination)
 
     assert json.loads(destination.read_text(encoding="utf-8")) == valid_snapshot()
+    assert destination.stat().st_mode & 0o777 == 0o644
     assert list(tmp_path.glob("*.tmp")) == []
 
 

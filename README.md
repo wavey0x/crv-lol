@@ -22,6 +22,12 @@ The refresh is assembled in memory and atomically replaces the snapshot only
 after validation. A failed refresh leaves the last-known-good snapshot intact.
 Production runs `deploy/systemd/crv-lol-refresh.service` from its timer; only
 the timer is enabled.
+On Electro, installed code is read-only under `/opt/crv-lol`, the private
+environment is `/etc/crv-lol.env`, and the service owns its Brownie inputs and
+public snapshot under `/var/lib/crv-lol`. The snapshot is world-readable so the
+separate API can serve it; no credentials are stored in it. The Brownie cache
+contains the contract records needed by this installed version and is captured
+with the worker for recovery.
 
 ## Web application
 
