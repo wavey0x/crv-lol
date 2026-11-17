@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './Treasury.css';
 import apiClient from '../api/client';
+import TreasuryChart from './TreasuryChart';
 
 const formatCurrency = (value, maximumFractionDigits = 0) =>
   new Intl.NumberFormat('en-US', {
@@ -31,21 +32,30 @@ const Treasury = () => {
   const [showTokenAmounts, setShowTokenAmounts] = useState(false);
 
   useEffect(() => {
+    let cancelled = false;
     const fetchBalanceSheet = async () => {
       try {
         const response = await apiClient.get(
           '/api/crvlol/treasury_balance_sheet'
         );
-        setBalanceSheet(response.data);
+        if (!cancelled) {
+          setBalanceSheet(response.data);
+          setError(null);
+        }
       } catch (err) {
-        setError('Failed to fetch treasury balance sheet.');
+        if (!cancelled) setError('Failed to fetch treasury balance sheet.');
         console.error('Error fetching treasury balance sheet:', err);
       } finally {
-        setLoading(false);
+        if (!cancelled) setLoading(false);
       }
     };
 
     fetchBalanceSheet();
+    const interval = setInterval(fetchBalanceSheet, 10 * 60 * 1000);
+    return () => {
+      cancelled = true;
+      clearInterval(interval);
+    };
   }, []);
 
   if (loading) {
@@ -56,7 +66,7 @@ const Treasury = () => {
     );
   }
 
-  if (error || !balanceSheet) {
+  if (!balanceSheet) {
     return (
       <div className="treasury-error">{error || 'No data available.'}</div>
     );
@@ -76,6 +86,8 @@ const Treasury = () => {
           </div>
         </div>
       </div>
+
+      <TreasuryChart history={balanceSheet.history} />
 
       <div className="treasury-wallets">
         {balanceSheet.wallets.map((wallet) => (

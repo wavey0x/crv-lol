@@ -1,0 +1,121 @@
+.treasury-chart {
+  margin: 0 0 20px;
+}
+
+.treasury-chart-legend,
+.treasury-chart-legend > span,
+.treasury-chart-ranges {
+  display: flex;
+  align-items: center;
+}
+
+.treasury-chart-legend {
+  gap: 16px;
+  margin-bottom: 10px;
+  font-size: 10px;
+  color: #777777;
+}
+
+.treasury-chart-legend > span {
+  gap: 6px;
+  white-space: nowrap;
+}
+
+.treasury-chart-legend i,
+.treasury-chart-tooltip i {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.treasury-chart-ranges {
+  justify-content: center;
+  gap: 16px;
+  margin-top: 10px;
+  font-size: 9px;
+}
+
+.treasury-chart-ranges button {
+  padding: 4px 2px;
+  border: 0;
+  border-radius: 0;
+  background: none;
+  font: inherit;
+  color: #999999;
+  cursor: pointer;
+}
+
+.treasury-chart-ranges button[aria-pressed='true'] {
+  color: #555555;
+  font-weight: 600;
+}
+
+.treasury-chart-ranges button:hover {
+  color: #111111;
+}
+
+.treasury-chart-ranges button:focus-visible,
+.treasury-chart .recharts-surface:focus-visible {
+  outline: 1px solid #888888;
+  outline-offset: 4px;
+}
+
+.treasury-chart-plot {
+  height: 160px;
+  width: 100%;
+}
+
+.treasury-chart-tooltip {
+  padding: 8px 10px;
+  border: 1px solid #e5e5e5;
+  background: rgba(255, 255, 255, 0.98);
+  font-size: 10px;
+  color: #333333;
+  font-variant-numeric: tabular-nums;
+}
+
+.treasury-chart-tooltip-date {
+  margin-bottom: 6px;
+  color: #888888;
+  font-size: 9px;
+}
+
+.treasury-chart-tooltip-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 3px;
+}
+
+.treasury-chart-tooltip-row > span:first-child {
+  color: #666666;
+}
+
+.treasury-chart-tooltip i {
+  margin-right: 6px;
+}
+
+.treasury-chart-tooltip-note,
+.treasury-chart-note,
+.treasury-chart-empty {
+  color: #888888;
+  font-size: 9px;
+  margin-top: 6px;
+}
+
+.treasury-chart-empty {
+  padding: 18px 0;
+}
+
+@media (max-width: 480px) {
+  .treasury-chart-legend {
+    font-size: 9px;
+    gap: 10px;
+  }
+
+  .treasury-chart-plot {
+    height: 140px;
+  }
+}

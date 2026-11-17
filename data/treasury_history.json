@@ -1,0 +1,812 @@
+[
+  {
+    "captured_at": 1787183999,
+    "captured_block": 25792601,
+    "stablecoins_usd": "1075501.75088862895881463633",
+    "governance_usd": "2222516.205620842631945964182",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1787270399,
+    "captured_block": 25799779,
+    "stablecoins_usd": "1075343.990519904903903863672",
+    "governance_usd": "2493548.646354642602520549649",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1787356799,
+    "captured_block": 25806958,
+    "stablecoins_usd": "1075428.06551600026929751236",
+    "governance_usd": "2996914.416121225730977751756",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1787443199,
+    "captured_block": 25814126,
+    "stablecoins_usd": "1075322.27346376557723068235",
+    "governance_usd": "2934993.686848594960716901522",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1787529599,
+    "captured_block": 25821305,
+    "stablecoins_usd": "1075691.570748076654179133733",
+    "governance_usd": "2876365.507956783136995574154",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1787615999,
+    "captured_block": 25828483,
+    "stablecoins_usd": "1075242.52761415342855372642",
+    "governance_usd": "2957566.888832896573649676728",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1787702399,
+    "captured_block": 25835657,
+    "stablecoins_usd": "1075338.050441995714259934545",
+    "governance_usd": "2745257.009363634176916269841",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1787788799,
+    "captured_block": 25842829,
+    "stablecoins_usd": "1162198.536986958979881473466",
+    "governance_usd": "2771947.970815786934559590619",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1787875199,
+    "captured_block": 25850009,
+    "stablecoins_usd": "1162210.126800749021850106407",
+    "governance_usd": "2852294.820568016468490708413",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1787961599,
+    "captured_block": 25857181,
+    "stablecoins_usd": "1162492.197283987530943937714",
+    "governance_usd": "2670942.444033149741444265335",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1788047999,
+    "captured_block": 25864358,
+    "stablecoins_usd": "1162687.126573683480290843897",
+    "governance_usd": "2657247.22643925983945374033",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1788134399,
+    "captured_block": 25871535,
+    "stablecoins_usd": "1162803.081393841034651547729",
+    "governance_usd": "2581916.983029157481581601522",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1788220799,
+    "captured_block": 25878704,
+    "stablecoins_usd": "1162885.213952133431024930805",
+    "governance_usd": "2953929.282735250941517368779",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1788307199,
+    "captured_block": 25885878,
+    "stablecoins_usd": "1162751.582153975305282323707",
+    "governance_usd": "3242327.198897261564488945359",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1788393599,
+    "captured_block": 25893051,
+    "stablecoins_usd": "1048465.7770642853750668025",
+    "governance_usd": "2965190.748406780146693809184",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1788479999,
+    "captured_block": 25900226,
+    "stablecoins_usd": "1048826.029282328571285763711",
+    "governance_usd": "2975546.782402486763744650565",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1788566399,
+    "captured_block": 25907399,
+    "stablecoins_usd": "1049486.207158658186078363988",
+    "governance_usd": "2875061.527921664699226123827",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1788652799,
+    "captured_block": 25914574,
+    "stablecoins_usd": "1049542.190223996032606511557",
+    "governance_usd": "3088732.877792010032695837915",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1788739199,
+    "captured_block": 25921753,
+    "stablecoins_usd": "1049571.627740694026668645398",
+    "governance_usd": "3118703.921414483101368529974",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1788825599,
+    "captured_block": 25928919,
+    "stablecoins_usd": "1049759.897274964248477195963",
+    "governance_usd": "3020539.625648019045843995986",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1788911999,
+    "captured_block": 25936089,
+    "stablecoins_usd": "1068601.838723115927951145523",
+    "governance_usd": "2876588.008669403361417627004",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1788998399,
+    "captured_block": 25943260,
+    "stablecoins_usd": "1095313.116719815962226254727",
+    "governance_usd": "2882894.14180178396562827505",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1789084799,
+    "captured_block": 25950430,
+    "stablecoins_usd": "1095547.317822934093152657402",
+    "governance_usd": "2721484.274486964111508727848",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1789171199,
+    "captured_block": 25957605,
+    "stablecoins_usd": "1100183.754742578486110642334",
+    "governance_usd": "2714017.945064774973073567457",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1789257599,
+    "captured_block": 25964780,
+    "stablecoins_usd": "1100209.63098492155884886924",
+    "governance_usd": "2697060.917162636133880903719",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1789343999,
+    "captured_block": 25971961,
+    "stablecoins_usd": "1100542.024762583796739801448",
+    "governance_usd": "2795340.873677331440385874135",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1789430399,
+    "captured_block": 25979136,
+    "stablecoins_usd": "1100917.577811501789676651592",
+    "governance_usd": "2811298.501534417224913742596",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1789516799,
+    "captured_block": 25986306,
+    "stablecoins_usd": "1101429.066612699081725671033",
+    "governance_usd": "2589478.617878857009965953476",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1789603199,
+    "captured_block": 25993481,
+    "stablecoins_usd": "1138978.414282237076442875284",
+    "governance_usd": "2588145.145585414747117998312",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1789689599,
+    "captured_block": 26000650,
+    "stablecoins_usd": "1138885.015716744927981266025",
+    "governance_usd": "2653614.821579093390499294277",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1789775999,
+    "captured_block": 26007835,
+    "stablecoins_usd": "1139663.804191405822555418516",
+    "governance_usd": "2786408.625446819778135561823",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1789862399,
+    "captured_block": 26014997,
+    "stablecoins_usd": "1139415.170610475988206243746",
+    "governance_usd": "2789729.329597877630017281966",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1789948799,
+    "captured_block": 26022169,
+    "stablecoins_usd": "1139633.665732177812262317722",
+    "governance_usd": "2874249.510881696121671596412",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1790035199,
+    "captured_block": 26029315,
+    "stablecoins_usd": "1139825.140892885893563385462",
+    "governance_usd": "2975737.925205884080148032697",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1790121599,
+    "captured_block": 26036463,
+    "stablecoins_usd": "1139768.73574914895550193861",
+    "governance_usd": "2933244.522992544682590234754",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1790207999,
+    "captured_block": 26043610,
+    "stablecoins_usd": "1153230.607893578315573749816",
+    "governance_usd": "2632468.249796752000824371959",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1790294399,
+    "captured_block": 26050748,
+    "stablecoins_usd": "1153186.977400032299336469018",
+    "governance_usd": "2801558.3491245597852007989",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1790380799,
+    "captured_block": 26057904,
+    "stablecoins_usd": "1153110.222505933549359376661",
+    "governance_usd": "2874850.207973195021837008694",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1790467199,
+    "captured_block": 26065069,
+    "stablecoins_usd": "1153640.530913010836956377375",
+    "governance_usd": "2812899.560184833375145433193",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1790553599,
+    "captured_block": 26072221,
+    "stablecoins_usd": "1153640.57557838893667751957",
+    "governance_usd": "2857053.651868342257653481318",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1790639999,
+    "captured_block": 26079396,
+    "stablecoins_usd": "1154107.075230783546338938182",
+    "governance_usd": "3071729.579648456124415984908",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1790726399,
+    "captured_block": 26086569,
+    "stablecoins_usd": "1154004.034084272009539362786",
+    "governance_usd": "3085666.426600427457999974308",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1790812799,
+    "captured_block": 26093737,
+    "stablecoins_usd": "1164875.584427007642495729838",
+    "governance_usd": "3191134.834331578454815824954",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1790899199,
+    "captured_block": 26100913,
+    "stablecoins_usd": "1164684.354109445056229774696",
+    "governance_usd": "3027339.621688557715480737798",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1790985599,
+    "captured_block": 26108081,
+    "stablecoins_usd": "1196556.842325976068357528894",
+    "governance_usd": "2995200.043050004822909707752",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1791071999,
+    "captured_block": 26115260,
+    "stablecoins_usd": "1196451.379882788785970701572",
+    "governance_usd": "3084719.710403904218177856906",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1791158399,
+    "captured_block": 26122439,
+    "stablecoins_usd": "1196702.66058203550976988844",
+    "governance_usd": "3063526.407257625719698970577",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1791244799,
+    "captured_block": 26129614,
+    "stablecoins_usd": "1196979.188668152990869926112",
+    "governance_usd": "3021815.881425170814049656019",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1791331199,
+    "captured_block": 26136782,
+    "stablecoins_usd": "1197168.678403563651017526172",
+    "governance_usd": "2919534.366408476242646547726",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1791417599,
+    "captured_block": 26143955,
+    "stablecoins_usd": "1209308.204092448727184716718",
+    "governance_usd": "3087479.766636309847762673928",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1791503999,
+    "captured_block": 26151122,
+    "stablecoins_usd": "1209655.727430835423070259474",
+    "governance_usd": "2718367.810764141142982438566",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1791590399,
+    "captured_block": 26158300,
+    "stablecoins_usd": "1210106.234466093740419389264",
+    "governance_usd": "2910536.550976316327961423359",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1791676799,
+    "captured_block": 26165481,
+    "stablecoins_usd": "1209930.488190068614935284501",
+    "governance_usd": "2889586.798487959364683530486",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1791763199,
+    "captured_block": 26172657,
+    "stablecoins_usd": "1210180.921790228297172500674",
+    "governance_usd": "3009404.037419154711439508204",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1791849599,
+    "captured_block": 26179841,
+    "stablecoins_usd": "1210245.045746540382343707108",
+    "governance_usd": "2828113.984424029637540140458",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1791935999,
+    "captured_block": 26187014,
+    "stablecoins_usd": "1210778.494913042556802746443",
+    "governance_usd": "2744944.707983357168094884467",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1792022399,
+    "captured_block": 26194188,
+    "stablecoins_usd": "1221793.71871737885452752598",
+    "governance_usd": "2674991.364532412735198344569",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1792108799,
+    "captured_block": 26201364,
+    "stablecoins_usd": "1222144.587104428341701989044",
+    "governance_usd": "2868060.317329059061964242142",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1792195199,
+    "captured_block": 26208546,
+    "stablecoins_usd": "1222274.444980759339630213582",
+    "governance_usd": "2853291.440942176070971440833",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1792281599,
+    "captured_block": 26215721,
+    "stablecoins_usd": "1222709.705092507294538989256",
+    "governance_usd": "2809801.08138113877175184634",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1792367999,
+    "captured_block": 26222895,
+    "stablecoins_usd": "1223092.429153878997733536484",
+    "governance_usd": "2862549.571779984424774747502",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1792454399,
+    "captured_block": 26230066,
+    "stablecoins_usd": "1223042.433659217715729408457",
+    "governance_usd": "2972451.535789238353287960399",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1792540799,
+    "captured_block": 26237241,
+    "stablecoins_usd": "1241441.687699619557733724329",
+    "governance_usd": "3145765.834348067746818614886",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1792627199,
+    "captured_block": 26244424,
+    "stablecoins_usd": "1258915.253068751121556871974",
+    "governance_usd": "3226655.078642601478440677884",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1792713599,
+    "captured_block": 26251600,
+    "stablecoins_usd": "1259061.493981225553035162379",
+    "governance_usd": "2924540.927081137163310524806",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1792799999,
+    "captured_block": 26258773,
+    "stablecoins_usd": "1258846.24099114019745056481",
+    "governance_usd": "2861847.010093663859548670896",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1792886399,
+    "captured_block": 26265958,
+    "stablecoins_usd": "1259881.689674365080690714682",
+    "governance_usd": "2830963.326716447896993044297",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1792972799,
+    "captured_block": 26273136,
+    "stablecoins_usd": "1259844.388679301736289887271",
+    "governance_usd": "2766815.859008605935598509293",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1793059199,
+    "captured_block": 26280313,
+    "stablecoins_usd": "1259598.536333865659139324303",
+    "governance_usd": "2748512.492705806482277007933",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1793145599,
+    "captured_block": 26287495,
+    "stablecoins_usd": "1259676.854346802415990249023",
+    "governance_usd": "2733637.053395799186981406745",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1793231999,
+    "captured_block": 26294679,
+    "stablecoins_usd": "1299538.863815008111191258063",
+    "governance_usd": "2713329.289562688149671686538",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1793318399,
+    "captured_block": 26301844,
+    "stablecoins_usd": "1299256.857107930875884021349",
+    "governance_usd": "2463134.957627765116657326755",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1793404799,
+    "captured_block": 26309019,
+    "stablecoins_usd": "1299918.274975284557550100038",
+    "governance_usd": "2324665.727645354466889589036",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1793491199,
+    "captured_block": 26316188,
+    "stablecoins_usd": "1300596.259764203042647137482",
+    "governance_usd": "2281289.662875396634992378694",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1793577599,
+    "captured_block": 26323364,
+    "stablecoins_usd": "1299905.966304086143649320138",
+    "governance_usd": "2245873.349927822265323156997",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1793663999,
+    "captured_block": 26330540,
+    "stablecoins_usd": "1299883.527658830250552863368",
+    "governance_usd": "2132579.529061615022616689658",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1793750399,
+    "captured_block": 26337722,
+    "stablecoins_usd": "1300172.623233782958093499274",
+    "governance_usd": "2111554.889399949158042821695",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1793836799,
+    "captured_block": 26344898,
+    "stablecoins_usd": "1331072.130921579663450704654",
+    "governance_usd": "2215724.720234086625931452286",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1793923199,
+    "captured_block": 26352078,
+    "stablecoins_usd": "1330445.195290723186441046763",
+    "governance_usd": "2019466.639699168461761420857",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1794009599,
+    "captured_block": 26359253,
+    "stablecoins_usd": "1330903.494562664259990326556",
+    "governance_usd": "2119401.598562766985324914359",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1794095999,
+    "captured_block": 26366423,
+    "stablecoins_usd": "1330641.055674665082882398137",
+    "governance_usd": "2151109.689784998002012989063",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1794182399,
+    "captured_block": 26373602,
+    "stablecoins_usd": "1330768.71254722812917162019",
+    "governance_usd": "2049202.83215925771871998508",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1794268799,
+    "captured_block": 26380783,
+    "stablecoins_usd": "1318760.114697689632178083365",
+    "governance_usd": "2075793.008830936235138094945",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1794355199,
+    "captured_block": 26387956,
+    "stablecoins_usd": "1318941.935743334774645327577",
+    "governance_usd": "1986338.268202908603675892074",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1794441599,
+    "captured_block": 26395133,
+    "stablecoins_usd": "1334468.366969082328420372772",
+    "governance_usd": "1940368.520747455930843167386",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1794527999,
+    "captured_block": 26402309,
+    "stablecoins_usd": "1334323.622888966830448078463",
+    "governance_usd": "1940590.027441111633944939989",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1794614399,
+    "captured_block": 26409492,
+    "stablecoins_usd": "1334521.24565136595172204054",
+    "governance_usd": "1857502.875099136487099341148",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1794700799,
+    "captured_block": 26416669,
+    "stablecoins_usd": "1334035.01989248568800465498",
+    "governance_usd": "1635604.355851254980476947345",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1794787199,
+    "captured_block": 26423854,
+    "stablecoins_usd": "1334567.445315522140139625441",
+    "governance_usd": "1662541.082020125905250436135",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  },
+  {
+    "captured_at": 1794873599,
+    "captured_block": 26431039,
+    "stablecoins_usd": "1335196.924617900047677695477",
+    "governance_usd": "1658655.124209761835980225481",
+    "other_usd": "0",
+    "complete": true,
+    "price_source": "defillama"
+  }
+]

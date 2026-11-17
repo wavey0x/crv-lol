@@ -28,6 +28,7 @@ ZAPPER_TOKEN_IMAGE_BASE_URL = (
     "https://storage.googleapis.com/zapper-fi-assets/tokens/ethereum"
 )
 ENV_KEY_NAMES = (
+    "WAVEY_PRICES_KEY",
     "TOKEN_PRICE_AGG_KEY",
     "TIDAL_DEPLOY_PRICE_API_KEY",
     "FACTORY_DASHBOARD_DEPLOY_PRICE_API_KEY",
@@ -240,8 +241,12 @@ def build_balance_row(
     }, (usd_value if usd_value is not None else Decimal("0"))
 
 
-def build_treasury_balance_sheet():
-    latest_block = web3.eth.get_block("latest")
+def build_treasury_balance_sheet(
+    block_identifier="latest", *, token_discovery=None, price_loader=None
+):
+    if block_identifier != "latest" and price_loader is None:
+        raise ValueError("Historical balances require historical prices")
+    latest_block = web3.eth.get_block(block_identifier)
     captured_block = latest_block["number"]
     wallets = [
         ("Treasury", TREASURY),
@@ -249,7 +254,11 @@ def build_treasury_balance_sheet():
         ("Grants Multisig", GRANTS_MULTISIG),
     ]
 
-    discovery = discover_treasury_tokens(captured_block, web3_client=web3)
+    discovery = (
+        token_discovery
+        if token_discovery is not None
+        else discover_treasury_tokens(captured_block, web3_client=web3)
+    )
     static_tokens = [web3.to_checksum_address(token) for token in STATIC_TOKENS]
     static_token_keys = {token.lower() for token in static_tokens}
     dynamic_tokens = [
@@ -287,11 +296,13 @@ def build_treasury_balance_sheet():
     if vest_return_balance > 0:
         positive_tokens.add(web3.to_checksum_address(CRV))
 
-    price_snapshots = {
-        token: get_price_snapshot_or_fallback(token)
-        for token in tokens
-        if token in positive_tokens
-    }
+    priced_tokens = [token for token in tokens if token in positive_tokens]
+    if price_loader is not None:
+        price_snapshots = price_loader(priced_tokens, latest_block["timestamp"])
+    else:
+        price_snapshots = {
+            token: get_price_snapshot_or_fallback(token) for token in priced_tokens
+        }
 
     wallet_rows = []
     grand_total = Decimal("0")

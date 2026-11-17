@@ -7,6 +7,7 @@ from crv_lol.liquid_lockers import (
 )
 from crv_lol.snapshot import get_snapshot_path, load_snapshot, publish_snapshot
 from crv_lol.treasury import build_treasury_balance_sheet
+from crv_lol.treasury_history import attach_history
 
 
 def main():
@@ -27,7 +28,10 @@ def main():
         raise RuntimeError("No fresh or cached Curve gauge data is available")
 
     try:
-        candidate["treasury_balance_sheet"] = build_treasury_balance_sheet()
+        candidate["treasury_balance_sheet"] = attach_history(
+            build_treasury_balance_sheet(),
+            previous.get("treasury_balance_sheet", {}),
+        )
     except Exception as error:
         if not candidate.get("treasury_balance_sheet"):
             raise
