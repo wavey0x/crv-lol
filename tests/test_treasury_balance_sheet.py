@@ -121,3 +121,30 @@ def test_dynamic_positive_balances_are_shown_and_only_they_are_priced(
     assert result["captured_block"] == 25_631_147
     assert set(metadata_blocks) == {25_631_147}
     assert set(balance_blocks) == {25_631_147}
+
+
+def test_prices_exclude_enso_by_default_and_allow_explicit_opt_in(monkeypatch):
+    monkeypatch.delenv("PRICE_PROVIDERS", raising=False)
+    monkeypatch.setattr(balance_sheet, "ENV_FILE_PATHS", ())
+    calls = []
+    class Response:
+        ok = True
+        def json(self):
+            return {"summary": {"median_price": "1.25"}}
+    def get(url, **kwargs):
+        calls.append(kwargs["params"])
+        return Response()
+    monkeypatch.setattr(balance_sheet.requests, "get", get)
+    assert balance_sheet.fetch_price_snapshot(balance_sheet.CRV)["price"] == Decimal("1.25")
+    assert calls[-1]["providers"] == "defillama,curve,lifi"
+    monkeypatch.setenv("PRICE_PROVIDERS", "curve,enso")
+    balance_sheet.fetch_price_snapshot(balance_sheet.CRV)
+    assert calls[-1]["providers"] == "curve,enso"
+
+
+def test_invalid_provider_selection_never_falls_back_to_all(monkeypatch):
+    import pytest
+    for value in ("", "unknown", "curve,unknown"):
+        monkeypatch.setenv("PRICE_PROVIDERS", value)
+        with pytest.raises(ValueError, match="PRICE_PROVIDERS"):
+            balance_sheet.fetch_price_snapshot(balance_sheet.CRV)

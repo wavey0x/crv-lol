@@ -29,6 +29,15 @@ separate API can serve it; no credentials are stored in it. The Brownie cache
 contains the contract records needed by this installed version and is captured
 with the worker for recovery.
 
+## Price providers
+
+Treasury prices use `defillama,curve,lifi` by default. Set `PRICE_PROVIDERS` in
+the worker environment (or local `.env`) to a comma-separated list; append
+`enso` to opt in. Empty or unknown lists are rejected. Use this app's own
+`WAVEY_PRICES_KEY` or `TOKEN_PRICE_AGG_KEY`; credentials from Tidal are not used.
+Each refresh prices only unique tokens with positive balances. Missing prices
+remain unpriced and totals are marked partial.
+
 ## Web application
 
 ```bash

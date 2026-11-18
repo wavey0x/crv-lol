@@ -30,8 +30,6 @@ ZAPPER_TOKEN_IMAGE_BASE_URL = (
 ENV_KEY_NAMES = (
     "WAVEY_PRICES_KEY",
     "TOKEN_PRICE_AGG_KEY",
-    "TIDAL_DEPLOY_PRICE_API_KEY",
-    "FACTORY_DASHBOARD_DEPLOY_PRICE_API_KEY",
 )
 ENV_FILE_PATHS = (Path(__file__).resolve().parents[1] / ".env",)
 
@@ -148,6 +146,18 @@ def get_wallet_token_data(wallet_address, token_address, block_identifier):
     }
 
 
+def price_providers():
+    configured = os.getenv("PRICE_PROVIDERS")
+    if configured is None:
+        configured = load_env_value_from_files("PRICE_PROVIDERS")
+    if configured is None:
+        configured = "defillama,curve,lifi"
+    providers = list(dict.fromkeys(part.strip().lower() for part in configured.split(",") if part.strip()))
+    if not providers or set(providers) - {"defillama", "curve", "lifi", "enso"}:
+        raise ValueError("PRICE_PROVIDERS must name one or more supported price providers")
+    return ",".join(providers)
+
+
 def fetch_price_snapshot(token_address, chain_id=1):
     headers = {}
     if TOKEN_PRICE_AGG_KEY:
@@ -155,7 +165,7 @@ def fetch_price_snapshot(token_address, chain_id=1):
 
     response = requests.get(
         WAVEY_PRICE_API,
-        params={"token": token_address, "chain_id": chain_id},
+        params={"token": token_address, "chain_id": chain_id, "providers": price_providers()},
         headers=headers,
         timeout=30,
     )
